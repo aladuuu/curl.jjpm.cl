@@ -1,0 +1,1 @@
+apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install rcconf htop fail2ban nano ufw && pico /etc/ssh/sshd_config && service ssh restart && ufw default deny incoming && ufw default allow outgoing && ufw allow 5576/tcp && ufw enable && ufw status numbered 
